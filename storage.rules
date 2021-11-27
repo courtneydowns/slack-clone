@@ -1,6 +1,5 @@
-rules_version = '2';
 service firebase.storage {
-  match /b/react-slack-clone.appspot.com/o {
+  match /b/slack-clone-in-react.appspot.com/o {
     match /avatars {
       match /users/{userId} {
         allow read: if request.auth != null;
