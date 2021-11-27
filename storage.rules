@@ -1,3 +1,4 @@
+rules_version = '2';
 service firebase.storage {
   match /b/slack-clone-in-react.appspot.com/o {
     match /avatars {
